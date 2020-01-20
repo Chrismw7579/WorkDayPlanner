@@ -1,0 +1,56 @@
+body {
+    width: 80%;
+    /* display:flex; flex-direction:column; justify-content:center; */
+    margin: auto;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+}
+
+header {
+    height: 70px;
+    text-align: center;
+}
+
+#date {
+    margin: 20px 0 20px 0;
+}
+
+.time-block {
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+}
+
+.time {
+    text-align: center;
+    width: 5%;
+    display: inline-block;
+    margin: auto;
+}
+
+.input {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+
+.save {
+    background-color: rgb(15, 227, 235);
+    height: 50px;
+    width: 10%;
+    margin: auto;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
