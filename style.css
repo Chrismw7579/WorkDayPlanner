@@ -1,6 +1,5 @@
 body {
     width: 80%;
-    /* display:flex; flex-direction:column; justify-content:center; */
     margin: auto;
 }
 
@@ -31,7 +30,7 @@ header {
 }
 
 .input {
-    width: 80%;
+    width: 85%;
     height: 50px;
     margin: auto;
 }
@@ -39,8 +38,9 @@ header {
 .save {
     background-color: rgb(15, 227, 235);
     height: 50px;
-    width: 10%;
+    width: 5%;
     margin: auto;
+    position: absolute;
 }
 
 .gray {
@@ -53,4 +53,13 @@ header {
 
 .green {
     background-color: green;
+}
+
+#clear {
+    left: 83%;
+    margin: 10px 0 0 0;
+    background-color: crimson;
+    color: white;
+    height: 30px;
+    position: absolute;
 }

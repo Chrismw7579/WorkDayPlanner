@@ -1,9 +1,10 @@
-let main = document.querySelector("#main");
+
 let timeBlocks = document.querySelectorAll(".time-block");
 let buttons = document.getElementsByClassName("save");
 let date = document.querySelector('#date');
 let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const clear = document.querySelector("#clear");
 
 displayPlan();
 UpdateDate();
@@ -58,3 +59,7 @@ function UpdateDate() {
     date.innerHTML =  `${days[day.getDay()]}, ${months[day.getMonth()]} ${day.getDate()}${suffix}`;
 }
 
+clear.addEventListener('click', function(){
+    localStorage.clear();
+    displayPlan();
+})
