@@ -16,7 +16,7 @@ for (var i = 0; i < buttons.length; i++) {
 }
 
 function save(event) {
-    let input = event.target.previousSibling.previousSibling;
+    let input = event.target.parentElement.previousSibling.previousSibling;
     localStorage.setItem(input.previousSibling.previousSibling.innerHTML, input.value);
 }
 
